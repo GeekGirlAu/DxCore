@@ -75,3 +75,10 @@ serialupdiHT42.program.extra_params=-u {serial.port} -b 460800 --blocksize 32
 serialupdiHT42.program.protocol=uart
 serialupdiHT42.program.tool=pymcuprog
 serialupdiHT42.bootloader.tool=pymcuprog
+
+powerdebugger_updi.name=Atmel PowerDebugger (UPDI)
+powerdebugger_updi.communication=usb
+powerdebugger_updi.protocol=powerdebugger_updi
+powerdebugger_updi.program.protocol=powerdebugger_updi
+powerdebugger_updi.program.tool=avrdude
+powerdebugger_updi.program.extra_params=-Pusb
